@@ -18,7 +18,7 @@ ul li {
     list-style: none;
 }
 
-.row {
+.container {
     min-height: auto;
     width: 60%;
     background: whitesmoke;
@@ -52,7 +52,7 @@ ul li {
     color: white;
     text-align: center;
     margin: auto;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     padding: 0.5rem;
     font-size: 1.3rem;
     border-radius: 0.5rem;
@@ -74,7 +74,10 @@ h3 {
     color: #000;
 }
 
-.education table td {
+.education,
+.experience,
+.bio-data,
+.pp-details table td {
     padding: 0.5rem;
     font-size: 1.3rem;
     color: #000;
@@ -88,4 +91,39 @@ h3 {
 
 .education table tr.school-2 td:first-child {
     padding-bottom: 1.5rem;
+}
+
+.experience table tr.experience-1 td:first-child {
+    width: 10.5rem;
+    color: grey;
+    padding-bottom: 1.5rem;
+}
+
+.experience table tr.experience-1 td {
+    padding-bottom: 1.5rem;
+}
+
+.experience table tr.experience-2 td:first-child {
+    width: 7.5rem;
+    color: grey;
+}
+
+.experience table tr.experience-2 td {
+    padding-bottom: 1.5rem;
+}
+
+.bio-data table tr td:first-child {
+    width: 12.5rem;
+}
+
+.bio-data table tr td:nth-child(2) {
+    width: 18.75rem;
+}
+
+.pp-details table tr td:first-child {
+    width: 12.5rem;
+}
+
+.pp-details table tr td:nth-child(2) {
+    width: 18.75rem;
 }
