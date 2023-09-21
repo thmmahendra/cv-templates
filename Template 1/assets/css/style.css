@@ -39,7 +39,7 @@ header>div:nth-child(2) {
 #name {
     font-size: 2rem;
     font-weight: normal;
-    margin-bottom: 2mm;
+    margin-bottom: 0.5rem;
 }
 
 #contacts {
@@ -52,54 +52,54 @@ header>div:nth-child(2) {
 }
 
 #contacts li {
-    height: 5mm;
-    margin: 0 2mm;
+    height: 2rem;
+    margin: 0 1rem;
     display: flex;
     align-items: center;
 }
 
 #contacts li img {
-    height: 4mm;
-    margin-right: 1mm;
+    height: 1rem;
+    margin-right: 0.5rem;
 }
 
-/* row */
+/* container */
 
-.row {
+.container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 2mm 0 8mm;
+    margin: 1rem 0 2rem;
 }
 
-.row h2 {
+.container h2 {
     font-size: 1.4rem;
     font-weight: normal;
 }
 
-.row p:first-child {
+.container p:first-child {
     margin-top: 0;
 }
 
-.row>div:nth-child(1) {
+.container>div:nth-child(1) {
     text-align: right;
     border-right: 1px solid #BABABA;
-    width: 30mm;
-    padding-right: 4mm;
+    width: 7rem;
+    padding-right: 1rem;
 }
 
-.row>div:nth-child(2) {
+.container>div:nth-child(2) {
     flex: 1;
     text-align: left;
     width: 180mm;
-    margin-left: 4mm;
+    margin-left: 2rem;
     border-bottom: 1px solid #DADADA;
 }
 
 /* entry */
 
 .entry {
-    margin-bottom: 6mm;
+    margin-bottom: 1.5rem;
 }
 
 .entry:not(:last-child) {
